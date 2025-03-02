@@ -6,7 +6,6 @@
     "dev": "nodemon gms-backend/index.js",
     "build": "npm install && npm install --prefix gms-frontend && npm run build --prefix gms-frontend",
     "start": "nodemon gms-backend/index.js"
-
   },
   "author": "",
   "license": "ISC",
@@ -19,7 +18,9 @@
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.9.4",
-    "nodemailer": "^6.9.16"
+    "nodemailer": "^6.9.16",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
