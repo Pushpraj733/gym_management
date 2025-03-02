@@ -7,7 +7,7 @@ const path=require( "path");
 const PORT=process.env.PORT;
 const _dirname= path.resolve();
 app.use(cors({
-    origin:'http://localhost:3000', //your react app url
+    origin:"https://gym-management-v9wi.onrender.com", //your react app url
     credentials: true
 }))
 

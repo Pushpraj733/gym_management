@@ -35,7 +35,7 @@ const [isSearchModeOn, setIsSearchModeOn] = useState(false)
 
   const fetchData = async (skip,limits) => {
 
-await axios.get(`http://localhost:4000/members/all-member?skip=${skip}&limit=${limits}`,{withCredentials:true}).then((response)=>{
+await axios.get(`https://gym-management-v9wi.onrender.com/members/all-member?skip=${skip}&limit=${limits}`,{withCredentials:true}).then((response)=>{
   console.log(response);
   
 
@@ -101,7 +101,7 @@ fetchData(skipValue,9);
 const handleSearchData=async()=>{
   if(search!==""){
   setIsSearchModeOn(true);
-  await axios.get(`http://localhost:4000/members/searched-members?searchTerm=${search}`,{withCredentials:true}).then((response)=>{
+  await axios.get(`https://gym-management-v9wi.onrender.com/members/searched-members?searchTerm=${search}`,{withCredentials:true}).then((response)=>{
 console.log(response);
 
 setData(response.data.members);
