@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nodemon gms-backend/index.js",
     "build": "npm install && npm install --prefix gms-frontend && npm run build --prefix gms-frontend",
-    "start": "nodemon gms-backend/index.js"
+    "start": "node gms-backend/index.js"
   },
   "author": "",
   "license": "ISC",
