@@ -78,7 +78,7 @@ exports.sendOtp=async (req,res)=>{
          await gym.save();
 //for email sending
 const mailOptions={
-    from: 'pushprajj77@gmail.com',
+    from: 'gymmanagement34@gmail.com',
     to: email,
     subject: 'Password Reset',
     text:`You requested a password reset.  Your OTP is : ${token}`
