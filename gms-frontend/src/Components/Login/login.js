@@ -28,7 +28,7 @@ const Login = () => {
   }
   return (
     <div className='w-1/3  p-10 mt-10 ml-20 bg-gray-50 bg-opacity-50 h-fit'>
-<div className='font-sans text-white text-center text-3xl'>Login</div>
+<div className='font-sans text-indigo-800 text-center text-3xl font-bold p-4 shadow-md'>Welcome Back!<br></br>Login into your account</div>
 <input value={loginField.userName} onChange={(event)=>{handleOnChange(event,"userName")}} type='text' className='w-full my-10 p-2 rounded-lg' placeholder='Enter username' />
 
 <input value={loginField.password} onChange={(event)=>{handleOnChange(event,"password")}} type='password' className='w-full mb-10 p-2 rounded-lg' placeholder='Enter password' />
