@@ -64,6 +64,10 @@ Open the application at (https://gym-management-v9wi.onrender.com/).
 📸 Screenshots
 ![Screenshot 2025-03-05 005343](https://github.com/user-attachments/assets/40e60b03-80e5-4b97-a7d9-e293ddff934f)
 ![Screenshot 2025-03-05 010007](https://github.com/user-attachments/assets/e2b8b0ab-6d22-4727-9d10-f34e8399f3c0)
+![Screenshot 2025-03-05 010134](https://github.com/user-attachments/assets/49fc50f0-3422-4906-89b9-2e0c38e65282)
+![Screenshot 2025-03-05 010746](https://github.com/user-attachments/assets/9e1ca4a4-d043-42f7-a926-ee9a89593c3f)
+![Screenshot 2025-03-05 010620](https://github.com/user-attachments/assets/d93dba1c-83c1-4696-b6d0-d0407c4a25fd)
+
 
 
 
