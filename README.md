@@ -1,8 +1,8 @@
-Gym Management System
+GymSync - Gym Management System
 
 📌 Project Overview
 
-The Gym Management System is a full-stack web application built using the MERN stack to help gym owners efficiently manage their members and memberships. The system enables gym owners to register, log in, track memberships, manage user details, and monitor expired memberships.
+The GymSync is a full-stack web application built using the MERN stack to help gym owners efficiently manage their members and memberships. The system enables gym owners to register, log in, track memberships, manage user details, and monitor expired memberships.
 
 🚀 Features
 
