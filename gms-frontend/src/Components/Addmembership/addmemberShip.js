@@ -8,7 +8,7 @@ const AddmemberShip = ({handleClose}) => {
     setInputField({ ...inputField, [name]: event.target.value })
 }
 const fetchMembership = async() =>{
-  await axios.get('https://gym-management-v9wi.onrender.com/plans/get-membership',{ withCredentials:true}).then((res)=>{
+  await axios.get('http://localhost:4000/plans/get-membership',{ withCredentials:true}).then((res)=>{
 console.log(res);
 setMembership(res.data.membership)
 toast.success(res.data.membership.length+" Membership Fetched")
@@ -22,7 +22,7 @@ useEffect(()=>{
 },[])
 
 const handleAddmembership= async()=>{
-  await axios.post('https://gym-management-v9wi.onrender.com/plans/add-membership',inputField,{ withCredentials:true}).then((response=>{
+  await axios.post('http://localhost:4000/plans/add-membership',inputField,{ withCredentials:true}).then((response=>{
 toast.success(response.data.message);
 handleClose();
   })).catch(err=>{

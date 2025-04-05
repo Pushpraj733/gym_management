@@ -49,7 +49,7 @@ const SignUp = () => {
   };
 
   const handleRegister= async ()=>{
-   await axios.post('https://gym-management-v9wi.onrender.com/auth/register',inputField).then((resp)=>{
+   await axios.post('http://localhost:4000/auth/register',inputField).then((resp)=>{
     const successMsg=resp.data.message;
     toast.success(successMsg)
    }).catch(err=>{

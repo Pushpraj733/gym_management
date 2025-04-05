@@ -38,7 +38,7 @@ const Addmembers = () => {
 
 
 const fetchMembership=async()=>{
-  await axios.get('https://gym-management-v9wi.onrender.com/plans/get-membership', {withCredentials:true}).then((response)=>{
+  await axios.get('http://localhost:4000/plans/get-membership', {withCredentials:true}).then((response)=>{
 
     setMembershipList(response.data.membership)
     if(response.data.membership.length===0){
@@ -67,7 +67,7 @@ const handleOnChangeSelect=async(event)=>{
 }
 
 const handleRegisterButton=async()=>{
-await axios.post('https://gym-management-v9wi.onrender.com/members/register-member',inputField,{withCredentials:true}).then((res)=>{
+await axios.post('http://localhost:4000/members/register-member',inputField,{withCredentials:true}).then((res)=>{
 
   toast.success("Added Successfully");
   setTimeout(()=>{
