@@ -6,7 +6,7 @@ require('dotenv').config()
 const PORT=process.env.PORT;
 
 app.use(cors({
-    origin:'http://localhost:4000', //your react app url
+    origin:'https://gym-management-9zrp.onrender.com', //your react app url
     credentials: true
 }))
 
